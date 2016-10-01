@@ -1,0 +1,16 @@
+{
+	"dev": {
+		"aws_region": "eu-west-1",
+		"memory_size": 128,
+		"http_methods": ["GET", "POST"],
+		"parameter_depth": "1",
+		"integration_response_codes": [200],
+		"method_response_codes": [200],
+		"project_name": "NOMBRE",
+		"log_level": "INFO",
+		"s3_bucket": "BUCKET",
+		"app_function": "bot.app",
+		"remote_env_bucket": "BUCKET",
+		"remote_env_file": "config.json"
+	}
+}
